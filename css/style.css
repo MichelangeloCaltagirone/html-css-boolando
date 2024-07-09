@@ -25,6 +25,7 @@ header {
     top: 0;
     right: 0;
     left: 0;
+    box-shadow: 10px 10px 8px #888888;
 }
 
 a {
@@ -33,6 +34,8 @@ a {
     font-size: 18px;
     margin-right: 10px;
 }
+
+
 
 
 /* Header style */
@@ -66,3 +69,21 @@ nav {
 
 
 /* Main style */
+
+/* Utilities for main */
+
+.card img {
+    width: 100%;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.row {
+    gap: 10px;
+}
+
+.col {
+    flex-basis: calc(100% / 3 - 20px / 3);
+}
